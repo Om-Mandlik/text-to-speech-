@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    height: 100%;
+}
+body{
+    height: 100%;
+    background: linear-gradient(13deg,rgb(61, 56, 56),rgb(26, 22, 22));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#text{
+    margin: 30px;
+    padding: 20px;
+    width: 60%;
+    color: rgb(101, 201, 168);
+    background-color: rgb(40, 38, 38);
+    outline: none;
+    border: none;
+    box-shadow: inset 0 0 10px black;
+    font-size: 1.5rem;
+}
+#read{
+    padding: 10px 40px;
+    text-align: center;
+    font-size: 1.2rem;
+    color: rgb(43, 61, 197);
+    background:linear-gradient(135deg,rgb(107, 215, 223),rgb(106, 106, 216));
+    border:none;
+}
+#read:hover{
+    cursor: pointer;
+    box-shadow: 0 0 50px rgb(83, 113, 221);
+}
+
